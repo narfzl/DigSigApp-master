@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Signed!</string>
+    <string name="hello_world">Hello Signed App</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_pic_icon">New Picture</string>
+    <string name="iv_descrip">Select Picture</string>
+    <string name="button_sign">Sign</string>
+    <string name="button_send">Send</string>
+    <string name="send_to">Send via &#8230;</string>
+    <string name="button_ok">OK</string>
+    <string name="button_save">Save</string>
+    <string name="inserT">and here!</string>
+    <string name="inserTS">write heeeeere!</string>
+    <string name="spinnerTopic">Please select Color</string>
+    <string name="color">Color:</string>
+    <string name="textsize">Text Size:</string>
+    <string name="signature">Signature:</string>
+
+    <string-array name="colors">
+        <item>Black</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Purple</item>
+        <item>Grey</item>
+        <item>Turquoise</item>
+    </string-array>
+    <string-array name="values">
+        <item>#000000</item>
+        <item>#FFFFFF</item>
+        <item>#FF0000</item>
+        <item>#0000FF</item>
+        <item>#FFFF00</item>
+        <item>#00FF00</item>
+        <item>#FF8000</item>
+        <item>#BF00FF</item>
+        <item>#848484</item>
+        <item>#00FFFF</item>
+    </string-array>
+    
+
+</resources>

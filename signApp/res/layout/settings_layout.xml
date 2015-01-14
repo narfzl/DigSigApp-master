@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#9999FF" >
+
+    <TextView
+        android:id="@+id/textSignature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/signature"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textTSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/textsize"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/color"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@id/textSignature"
+        android:layout_marginLeft="80dp"
+        android:hint="@string/inserT"
+        android:textColor="#000000" />
+    
+    <EditText
+        android:id="@+id/editSignature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@id/textSignature"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/inserTS"
+        android:textColor="#000000" />
+
+    <Spinner
+        android:id="@+id/spinnerColor"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textColor"
+        android:layout_marginTop="26dp"
+        android:background="#FFFFFF"
+        android:entries="@array/colors"
+        android:prompt="@string/spinnerTopic" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText01"
+        android:layout_below="@+id/spinnerColor"
+        android:layout_marginTop="36dp"
+        android:background="#DDDDDD"
+        android:text="@string/button_save" />
+
+</RelativeLayout>
